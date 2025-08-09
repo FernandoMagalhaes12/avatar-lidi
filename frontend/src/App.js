@@ -182,7 +182,21 @@ const AppContent = () => {
         isVisible={productsOpen}
         onClose={() => setProductsOpen(false)}
       />
+
+      {/* Cart */}
+      <Cart />
+
+      {/* Toast notifications */}
+      <Toaster />
     </div>
+  );
+};
+
+function App() {
+  return (
+    <CartProvider>
+      <AppContent />
+    </CartProvider>
   );
 }
 
