@@ -36,10 +36,17 @@ export const mockResponses = {
   ],
 
   promotionResponses: [
-    "Temos promoções incríveis todos os dias! Flash sales, cupons de desconto e ofertas especiais. Quer ver as promoções ativas?",
-    "Adoro as promoções da Shopee! Sempre tem desconto em produtos populares. Qual categoria você quer ver em promoção?",
-    "As promoções são o forte da Shopee! Descontos de até 90%, frete grátis e cashback. Não perca!",
-    "Promoções imperdíveis todos os dias! Cadastre-se nas notificações para não perder nenhuma oferta especial!"
+    "Temos promoções incríveis todos os dias! Flash sales, cupons de desconto e ofertas especiais. Adicione os produtos no carrinho para não perder as ofertas!",
+    "Adoro as promoções da Shopee! Sempre tem desconto em produtos populares. Use nosso carrinho para guardar os produtos em promoção e compare preços!",
+    "As promoções são o forte da Shopee! Descontos de até 90%, frete grátis e cashback. Adicione ao carrinho e aproveite!",
+    "Promoções imperdíveis todos os dias! Use nosso sistema de carrinho para organizar suas compras e não perder nenhuma oferta especial!"
+  ],
+
+  cartResponses: [
+    "Seu carrinho está te esperando no ícone superior direito! Lá você pode gerenciar quantidades, remover itens e finalizar sua compra na Shopee.",
+    "Adicionei o produto ao seu carrinho! Clique no ícone do carrinho para ver todos os itens salvos e calcular o total da sua compra.",
+    "Seu carrinho virtual está funcionando perfeitamente! Você pode adicionar quantos produtos quiser e depois finalizar a compra diretamente na Shopee.",
+    "Use o carrinho para comparar produtos e calcular o total! Quando estiver pronto, é só finalizar a compra e será redirecionado para a Shopee oficial."
   ]
 };
 
