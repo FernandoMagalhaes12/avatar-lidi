@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import { Star, ShoppingCart, Heart, Eye } from 'lucide-react';
+import { Star, ShoppingCart, Heart, Eye, ExternalLink } from 'lucide-react';
 import { Button } from './ui/button';
 import { Card, CardContent } from './ui/card';
 import { Badge } from './ui/badge';
 import { mockProducts } from '../data/mock';
+import { useCart } from '../context/CartContext';
 
 const ProductShowcase = ({ isVisible, onClose }) => {
   const [selectedCategory, setSelectedCategory] = useState('all');
