@@ -9,6 +9,7 @@ import { useCart } from '../context/CartContext';
 const ProductShowcase = ({ isVisible, onClose }) => {
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [favorites, setFavorites] = useState([]);
+  const { addToCart } = useCart();
 
   const categories = [
     { id: 'all', name: 'Todos' },
