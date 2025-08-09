@@ -3,14 +3,18 @@ import "./App.css";
 import Avatar from "./components/Avatar";
 import ChatInterface from "./components/ChatInterface";
 import ProductShowcase from "./components/ProductShowcase";
+import Cart from "./components/Cart";
 import { Button } from "./components/ui/button";
 import { Card, CardContent } from "./components/ui/card";
-import { Sparkles, Zap, Heart, Gift } from "lucide-react";
+import { Sparkles, Zap, Heart, Gift, ShoppingCart } from "lucide-react";
+import { CartProvider, useCart } from "./context/CartContext";
+import { Toaster } from "./components/ui/toaster";
 
-function App() {
+const AppContent = () => {
   const [chatOpen, setChatOpen] = useState(false);
   const [productsOpen, setProductsOpen] = useState(false);
   const [currentInteraction, setCurrentInteraction] = useState(null);
+  const { getTotalItems, openCart } = useCart();
 
   const handleAvatarInteraction = (type) => {
     setCurrentInteraction(type);
