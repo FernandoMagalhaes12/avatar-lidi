@@ -22,10 +22,10 @@ export const mockResponses = {
   ],
 
   productResponses: [
-    "Temos produtos incríveis! Desde eletrônicos até moda e casa. O que mais te interessa?",
-    "A variedade de produtos na Shopee é fantástica! Eletrônicos, beleza, casa, moda... tem de tudo!",
-    "Adoro falar sobre nossos produtos! Temos desde smartphones até produtos de beleza. Qual categoria você prefere?",
-    "Os produtos da Shopee são selecionados com muito cuidado! Todos com garantia e entrega rápida."
+    "Temos produtos incríveis e reais da Shopee! Desde eletrônicos até moda e casa. Use o botão 'Adicionar ao Carrinho' para guardar seus favoritos!",
+    "A variedade de produtos na Shopee é fantástica! Eletrônicos, beleza, casa, moda... tem de tudo! Todos com links diretos para a Shopee oficial!",
+    "Adoro falar sobre nossos produtos reais! Temos desde smartphones Samsung até produtos de beleza coreanos. Adicione ao carrinho e compare preços!",
+    "Os produtos da Shopee são selecionados com muito cuidado! Todos com garantia, avaliações reais e entrega rápida. Use nosso carrinho virtual para organizar suas compras!"
   ],
 
   shippingResponses: [
