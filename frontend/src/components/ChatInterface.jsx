@@ -82,6 +82,10 @@ const ChatInterface = ({ isOpen, onClose, interactionType }) => {
       return mockResponses.promotionResponses[Math.floor(Math.random() * mockResponses.promotionResponses.length)];
     }
     
+    if (input.includes('carrinho') || input.includes('adicionar') || input.includes('compra')) {
+      return mockResponses.cartResponses[Math.floor(Math.random() * mockResponses.cartResponses.length)];
+    }
+    
     // Resposta padrão
     return mockResponses.generalResponses[Math.floor(Math.random() * mockResponses.generalResponses.length)];
   };
