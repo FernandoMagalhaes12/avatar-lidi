@@ -125,9 +125,23 @@ const ProductShowcase = ({ isVisible, onClose }) => {
                     <Button 
                       size="sm" 
                       className="flex-1 bg-orange-500 hover:bg-orange-600 text-white"
+                      onClick={() => addToCart(product)}
                     >
                       <ShoppingCart className="w-4 h-4 mr-1" />
-                      Comprar
+                      Adicionar ao Carrinho
+                    </Button>
+                  </div>
+
+                  {/* Link para Shopee */}
+                  <div className="flex gap-2 mt-2">
+                    <Button 
+                      size="sm" 
+                      variant="outline"
+                      className="flex-1"
+                      onClick={() => window.open(product.shopeeLink || 'https://shopee.com.br', '_blank')}
+                    >
+                      <ExternalLink className="w-4 h-4 mr-1" />
+                      Ver na Shopee
                     </Button>
                   </div>
 
