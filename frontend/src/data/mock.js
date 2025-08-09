@@ -7,11 +7,11 @@ export const mockResponses = {
   },
 
   generalResponses: [
-    "Interessante! Na Shopee temos várias opções que podem te interessar. Posso te mostrar alguns produtos relacionados?",
-    "Que legal! Deixe-me verificar as melhores ofertas disponíveis para você na Shopee.",
-    "Ótima pergunta! Como sua consultora, sempre busco as melhores opções com melhor custo-benefício.",
-    "Posso te ajudar a encontrar exatamente o que precisa! A Shopee tem uma variedade incrível de produtos.",
-    "Adorei sua escolha! Vou te mostrar as opções mais populares e bem avaliadas pelos clientes."
+    "Interessante! Na Shopee temos várias opções que podem te interessar. Posso te mostrar alguns produtos relacionados? Não esqueça de verificar seu carrinho no ícone superior direito!",
+    "Que legal! Deixe-me verificar as melhores ofertas disponíveis para você na Shopee. Todos os produtos podem ser adicionados ao seu carrinho para compra posterior!",
+    "Ótima pergunta! Como sua consultora, sempre busco as melhores opções com melhor custo-benefício. Você pode adicionar os produtos no carrinho e finalizar a compra quando quiser!",
+    "Posso te ajudar a encontrar exatamente o que precisa! A Shopee tem uma variedade incrível de produtos. Use o carrinho para guardar seus favoritos!",
+    "Adorei sua escolha! Vou te mostrar as opções mais populares e bem avaliadas pelos clientes. Lembre-se de adicionar ao carrinho os produtos que te interessarem!"
   ],
 
   priceResponses: [
