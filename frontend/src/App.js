@@ -51,9 +51,28 @@ const AppContent = () => {
               <p className="text-sm text-gray-600">Com a Lidi, sua consultora virtual</p>
             </div>
           </div>
-          <Button className="bg-orange-500 hover:bg-orange-600 text-white">
-            Baixar App
-          </Button>
+          <div className="flex items-center gap-3">
+            <Button className="bg-orange-500 hover:bg-orange-600 text-white">
+              Baixar App
+            </Button>
+            
+            {/* Cart Icon */}
+            <div className="relative">
+              <Button 
+                variant="outline" 
+                size="sm" 
+                onClick={openCart}
+                className="relative"
+              >
+                <ShoppingCart className="w-5 h-5" />
+                {getTotalItems() > 0 && (
+                  <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
+                    {getTotalItems()}
+                  </span>
+                )}
+              </Button>
+            </div>
+          </div>
         </div>
       </header>
 
