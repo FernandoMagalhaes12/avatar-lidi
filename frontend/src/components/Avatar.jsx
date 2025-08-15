@@ -24,16 +24,7 @@ const Avatar = ({ onInteraction, imageUrl }) => {
           <ShoppingBag className="w-4 h-4 mr-1" />
           Produtos
         </Button>
-        <Button
-          size="sm"
-          variant="outline"
-          onClick={() => onInteraction('search')}
-          className="bg-orange-50 hover:bg-orange-100 border-orange-200"
-          aria-label="Buscar"
-        >
-          <Search className="w-4 h-4 mr-1" />
-          Buscar
-        </Button>
+        
         <Button
           size="sm"
           variant="outline"
